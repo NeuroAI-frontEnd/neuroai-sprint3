@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/header";
 import Footer from "./components/footer";
@@ -5,6 +6,9 @@ import Home from "./pages/home";
 import Sobre from "./pages/sobre";
 import Faq from "./pages/faq";
 import Contato from "./pages/contato";
+import Integrantes from "./pages/integrantes";
+import AgendarConsulta from "./pages/agendarConsulta";
+import ConsultasMarcadas from "./pages/consultasMarcadas";
 
 export default function App() {
   return (
@@ -16,9 +20,12 @@ export default function App() {
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/integrantes" element={<Integrantes />} />
+          <Route path="/agendarConsultas" element={<AgendarConsulta />} />
+          <Route path="/consultasMarcadas" element={<ConsultasMarcadas />} />
         </Routes>
       </main>
       <Footer />
-    </div>
-  );
+    </div>
+  );
 }
