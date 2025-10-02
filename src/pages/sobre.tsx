@@ -7,5 +7,5 @@ export default function Sobre() {
         consultas médicas, garantindo praticidade e acessibilidade.
       </p>
     </section>
-  );
+  );
 }
