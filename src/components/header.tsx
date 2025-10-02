@@ -10,6 +10,9 @@ export default function Header() {
           <li><Link to="/sobre">Sobre</Link></li>
           <li><Link to="/faq">FAQ</Link></li>
           <li><Link to="/contato">Contato</Link></li>
+          <li><Link to="/integrantes">Integrantes</Link></li>
+          <li><Link to="/consultasMarcadas">Consultas marcadas</Link></li>
+          <li><Link to="/agendarConsultas">Agendar consultas</Link></li>
         </ul>
       </nav>
     </header>

@@ -10,13 +10,13 @@ export default function Integrantes() {
       nome: "Daniel Nicolas Leoterio",
       turma: "1TDSPV",
       rm: "562186",
-      foto: "/Daniel.jpg",
+      foto: "/Daniel_ft.jpg",
     },
     {
       nome: "Matheus Moya de Oliveira",
       turma: "1TDSPV",
       rm: "562822",
-      foto: "/Matheus.jpg",
+      foto: "/Matheus_ft.jpg",
     },
   ];
 
