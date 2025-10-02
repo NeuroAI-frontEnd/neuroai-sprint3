@@ -4,19 +4,19 @@ export default function Integrantes() {
       nome: "Ana Carolina Pereira Fontes",
       turma: "1TDSPV",
       rm: "562145",
-      foto: "/Carolina_ft.jpg",
+      foto: "src/assets/Carolina_ft.jpg",
     },
     {
       nome: "Daniel Nicolas Leoterio",
       turma: "1TDSPV",
       rm: "562186",
-      foto: "/Daniel_ft.jpg",
+      foto: "src/assets/Daniel_ft.jpg",
     },
     {
       nome: "Matheus Moya de Oliveira",
       turma: "1TDSPV",
       rm: "562822",
-      foto: "/Matheus_ft.jpg",
+      foto: "src/assets/Matheus_ft.jpg",
     },
   ];
 
