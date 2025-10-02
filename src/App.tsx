@@ -3,7 +3,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import Home from "./pages/home";
 import Sobre from "./pages/sobre";
-import Faq from "./pages/faq";
+import FAQ from "./pages/faq";
 import Contato from "./pages/contato";
 
 export default function App() {
@@ -14,11 +14,11 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre />} />
-          <Route path="/faq" element={<Faq />} />
+          <Route path="/faq" element={<FAQ />} />
           <Route path="/contato" element={<Contato />} />
         </Routes>
       </main>
       <Footer />
-    </div>
-  );
+    </div>
+  );
 }
